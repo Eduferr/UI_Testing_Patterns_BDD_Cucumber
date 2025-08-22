@@ -1,0 +1,19 @@
+{
+  "name": "cy-bdd-cucumber",
+  "version": "1.0.0",
+  "description": "Exemplo de Behavior Driven Development com cucumber",
+  "license": "ISC",
+  "author": "EduardoFerreira",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.0.0",
+    "cypress": "^15.0.0"
+  },
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^7.0.1"
+  }
+}
